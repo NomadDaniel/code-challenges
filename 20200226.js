@@ -89,3 +89,10 @@ function wordLengths(arr) {
 function numArgs() {
 	return arguments.length;
 }
+
+// Concatenating Two Integer Arrays
+function concat(arr1, arr2) {
+	return arr1.concat(arr2);
+}
+
+// ES6: Destructuring Objects VIII
