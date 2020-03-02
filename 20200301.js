@@ -26,7 +26,34 @@ function squaresSum(n) {
     return sum; 
 }
 
+// Find the Largest Number in an Array
+// Create a function that takes an array of numbers. Return the largest number in the array.
+// Base code...
+// function findLargestNum(arr) {
+// }
+
+function findLargestNum(arr) {
+	return Math.max(...arr);
+}
+
 // Other solution
+// const findLargestNum = arr => Math.max.apply(Math, arr)
 
 
+//Multiply by Length
+//Create a function to multiply all of the values in an array by the amount of values in the given array. 
+const multiplyByLength = arr => arr.map(val => val * arr.length);
 
+
+//Base code
+//function findSmallestNum(arr) {}
+
+//My Solution
+function findSmallestNum(arr) {
+	return Math.min.apply(null, arr);
+}
+
+// Other Solution
+// function findSmallestNum(arr) {
+//   return Math.min(...arr);
+// }
